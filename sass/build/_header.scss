@@ -1,0 +1,52 @@
+.head__contact {
+  display: flex;
+}
+.head {
+  margin-top: 50px;
+}
+.head__container {
+  align-items: center;
+}
+.nav {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: contents;
+    margin-left: px;
+  }
+}
+.nav__list {
+  display: flex;
+}
+.nav__item {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  margin-right: 25px;
+  color: #ffffff;
+  :hover {
+    color: #ff6c00;
+  }
+}
+.head__contact {
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    flex-direction: column-reverse;
+    margin-left: 50px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    align-items: center;
+    display: block;
+  }
+}
+
+.head__btn {
+  @media screen and (min-width: 768px) {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}

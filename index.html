@@ -5,29 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbershop</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap"
+    />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
   </head>
   <body>
-    <header class="header">
-      <a class="head_logo" href="./index.html">
-        <img src="./img/Logo-min.png" alt="логотип" />
-      </a>
-      <nav>
-        <ul
-          <li><a id="" href="">О нас</a></li>
-          <li><a href="">Услуги</a></li>
-          <li><a href="">Мастера</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
-      <button class="btn_black" type="button">онлайн запись</button>
+    <header class="head">
+      <div class="container head__container">
+        <a class="head__logo" href="./index.html">
+          <img class="head__img" src="./img/Logo-min.png" alt="логотип" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="">Услуги</a></li>
+            <li class="nav__item"><a class="nav__link" href="">Мастера</a></li>
+            <li class="nav__item"><a class="nav__link" href="">О нас</a></li>
+            <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="head__contact">
+          <a class="head__tel" href="tel:+38 044 111 11 11"
+            >+38 044 111 11 11</a
+          >
+          <button class="head__btn btn" type="button">онлайн запись</button>
+        </div>
+      </div>
     </header>
-    <main>
+    <!-- <main>
       <section>
         <p lang="eu">A hair salon for men in Kyiv</p>
         <h1>BarberShop</h1>
@@ -243,6 +252,6 @@
         <p>ВРЕМЯ РАБОТЫ</p>
         <p>Ежедневно с 9:00 до 22:00</p>
       </section>
-    </footer>
+    </footer> -->
   </body>
 </html>
