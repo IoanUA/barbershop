@@ -1,7 +1,28 @@
-.btn {
+.btn-white {
+  display: block;
   box-sizing: border-box;
+  width: 161.67px;
+  height: 40px;
+  left: 565.33px;
+  top: 40px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.btn-white:hover {
+  color: #ff6c00;
+}
 
-  //   position: absolute;
+.btn-black {
+  display: block;
+  box-sizing: border-box;
   width: 161.67px;
   height: 40px;
   left: 565.33px;
@@ -10,13 +31,16 @@
   border: 1px solid #ff6c00;
   border-radius: 25px;
 
-  font-family: "Open Sans";
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 16px;
+  line-height: calc(16 / 12);
   letter-spacing: 0.09em;
   text-transform: uppercase;
-
-  color: #ffffff;
+  color: black;
+}
+.btn-black:hover {
+  color: #ff6c00;
+}
+.btn-praice {
+  margin: 0 auto;
 }

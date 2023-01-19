@@ -1,9 +1,17 @@
 .container {
-  display: flex;
+  border: 2px solid red;
+  width: 480px;
+  margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
   @media screen and (min-width: 768px) {
+    width: 768px;
     padding-left: 40px;
     padding-right: 40px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
 }
