@@ -308,6 +308,7 @@ body {
 }
 
 .praice__box {
+  padding: 30px;
   margin-bottom: 50px;
   width: 418px;
   height: 440px;
@@ -316,7 +317,7 @@ body {
 
 .praice__item {
   margin-bottom: 20px;
-  width: 124px;
+  width: 418px;
   height: 30px;
   font-weight: 400;
   font-size: 14px;
@@ -341,7 +342,7 @@ body {
   .hero {
     padding-top: 164px;
     padding-bottom: 234px;
-    background-image: url();
+    background-image: url("../../");
   }
 }
 
