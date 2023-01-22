@@ -1,0 +1,40 @@
+.reason__title {
+  margin-bottom: 20px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+.reason__par {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.reason__card {
+  width: 193px;
+  height: 133px;
+  background-color: gray;
+}
+.reason__statistic {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+.reason__text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #303030;
+}
