@@ -9,6 +9,7 @@
   color: #303030;
 }
 .reason__par {
+  margin-bottom: 44px;
   font-weight: 400;
   font-size: 18px;
   line-height: calc(30 / 18);
@@ -37,4 +38,14 @@
   text-align: center;
 
   color: #303030;
+}
+.reason__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.reason__box {
+  width: 193px;
+  height: 133px;
+  background-color: #f7f7f7;
 }
